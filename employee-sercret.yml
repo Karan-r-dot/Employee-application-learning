@@ -1,0 +1,11 @@
+apiVersion: v1
+
+kind: Secret
+
+metadata:
+  name: employee-secret
+
+data:
+  DB_PASSWORD: root123
+
+  JWT_SECRET: my-secret-key

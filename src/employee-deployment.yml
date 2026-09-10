@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+  name: employee-deployment //deployment name
+
+spec:
+  replicas: 3 //i need 3 running pods 
+
+  template:
+    metadata:
+     labels:
+      app: employee // every pod created by this deployment gets label called "employee"
+
+    spec:
+      containers:
+        - name: employee-container
+          image: employee-service:1.0 //use this image to create the containers.Now each pod will have employee-conatiner and employee-service image
+
+          ports:
+           - containerPort : 8080 //port on which application runs inside container 
+
+          env:
+           - name: DB_URL //injects value from configmap
+             valueFrom:
+              configMapKeyRef:
+               name: employee-config
+               key: DB_URL
+
+           - name: DB_PASSWORD //injects value from employee-secret
+             valueFrom:
+              configMapKeyRef:
+               name: eemployee-secret
+               key: DB_PASSWORD
+           
+           - name: JWT_SECRET //injects value from employee-secret
+             valueFrom:
+              configMapKeyRef:
+               name: eemployee-secret
+               key: JWT_SECRET
+            
+           - name: REDIS_HOST
+             valueFrom:
+              configMapKeyRef:
+               name: employee-config
+               key: REDIS_HOST

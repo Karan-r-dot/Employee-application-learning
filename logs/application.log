@@ -1,0 +1,239 @@
+2026-08-18T16:48:51.142+05:30  INFO 15536 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Starting EmployeeApplication using Java 21.0.11 with PID 15536 (C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application\target\classes started by karan.ramesh in C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application)
+2026-08-18T16:48:51.170+05:30  INFO 15536 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : No active profile set, falling back to 1 default profile: "default"
+2026-08-18T16:48:51.319+05:30  INFO 15536 --- [employee-application] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-18T16:48:51.320+05:30  INFO 15536 --- [employee-application] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-18T16:48:54.317+05:30  INFO 15536 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-18T16:48:54.575+05:30  INFO 15536 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 224 ms. Found 5 JPA repository interfaces.
+2026-08-18T16:48:56.718+05:30  INFO 15536 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-18T16:48:56.751+05:30  INFO 15536 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-18T16:48:56.752+05:30  INFO 15536 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-18T16:48:56.935+05:30  INFO 15536 --- [employee-application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5613 ms
+2026-08-18T16:48:57.526+05:30  INFO 15536 --- [employee-application] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-18T16:48:57.705+05:30  INFO 15536 --- [employee-application] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-18T16:48:58.651+05:30  INFO 15536 --- [employee-application] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-18T16:48:58.710+05:30  INFO 15536 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-18T16:49:00.950+05:30  INFO 15536 --- [employee-application] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a6a771c
+2026-08-18T16:49:00.957+05:30  INFO 15536 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-18T16:49:01.206+05:30  INFO 15536 --- [employee-application] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employee_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: employee_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-18T16:49:02.621+05:30  INFO 15536 --- [employee-application] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-18T16:49:02.821+05:30  INFO 15536 --- [employee-application] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-18T16:49:02.941+05:30  INFO 15536 --- [employee-application] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-18T16:49:04.739+05:30  WARN 15536 --- [employee-application] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-18T16:49:04.963+05:30  WARN 15536 --- [employee-application] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 025a4f64-48d7-4c99-96d4-58e578d03c98
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-08-18T16:49:04.993+05:30  INFO 15536 --- [employee-application] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-08-18T16:49:06.775+05:30  INFO 15536 --- [employee-application] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-08-18T16:49:07.003+05:30  INFO 15536 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-18T16:49:07.020+05:30  INFO 15536 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Started EmployeeApplication in 16.96 seconds (process running for 18.743)
+2026-08-18T16:49:07.034+05:30  WARN 15536 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-18T16:49:07.035+05:30  WARN 15536 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-18T16:49:08.560+05:30  INFO 15536 --- [employee-application] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-18T16:49:08.562+05:30  INFO 15536 --- [employee-application] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-18T16:49:08.568+05:30  INFO 15536 --- [employee-application] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-08-18T16:54:34.531+05:30  INFO 18808 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Starting EmployeeApplication using Java 21.0.11 with PID 18808 (C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application\target\classes started by karan.ramesh in C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application)
+2026-08-18T16:54:34.538+05:30  INFO 18808 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : No active profile set, falling back to 1 default profile: "default"
+2026-08-18T16:54:34.715+05:30  INFO 18808 --- [employee-application] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-18T16:54:34.716+05:30  INFO 18808 --- [employee-application] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-18T16:54:38.169+05:30  INFO 18808 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-18T16:54:38.453+05:30  INFO 18808 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 223 ms. Found 5 JPA repository interfaces.
+2026-08-18T16:54:40.420+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-18T16:54:40.461+05:30  INFO 18808 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-18T16:54:40.462+05:30  INFO 18808 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-18T16:54:40.690+05:30  INFO 18808 --- [employee-application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5972 ms
+2026-08-18T16:54:41.397+05:30  INFO 18808 --- [employee-application] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-18T16:54:41.617+05:30  INFO 18808 --- [employee-application] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-18T16:54:42.996+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-18T16:54:43.106+05:30  INFO 18808 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-18T16:54:44.102+05:30  INFO 18808 --- [employee-application] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f24db6d
+2026-08-18T16:54:44.108+05:30  INFO 18808 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-18T16:54:44.319+05:30  INFO 18808 --- [employee-application] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employee_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: employee_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-18T16:54:46.166+05:30  INFO 18808 --- [employee-application] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-18T16:54:46.393+05:30  INFO 18808 --- [employee-application] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-18T16:54:46.520+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-18T16:54:48.718+05:30  WARN 18808 --- [employee-application] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-18T16:54:48.880+05:30  WARN 18808 --- [employee-application] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: aeb556f1-67ce-4094-b1ef-5a81bbc9f051
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-08-18T16:54:48.899+05:30  INFO 18808 --- [employee-application] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-08-18T16:54:51.134+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-08-18T16:54:51.365+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-18T16:54:51.386+05:30  INFO 18808 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Started EmployeeApplication in 18.004 seconds (process running for 19.994)
+2026-08-18T16:54:51.408+05:30  WARN 18808 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-18T16:54:51.409+05:30  WARN 18808 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-18T16:54:51.680+05:30  INFO 18808 --- [employee-application] [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-18T16:54:51.681+05:30  INFO 18808 --- [employee-application] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-18T16:54:51.687+05:30  INFO 18808 --- [employee-application] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-08-18T16:56:46.947+05:30  INFO 18808 --- [employee-application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-08-18T16:56:46.993+05:30  INFO 18808 --- [employee-application] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-18T16:56:47.006+05:30  INFO 18808 --- [employee-application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-18T16:56:47.057+05:30  INFO 18808 --- [employee-application] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-18T16:56:47.109+05:30  INFO 18808 --- [employee-application] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-18T16:56:47.157+05:30  INFO 18808 --- [employee-application] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-18T16:56:47.654+05:30  INFO 18808 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Starting EmployeeApplication using Java 21.0.11 with PID 18808 (C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application\target\classes started by karan.ramesh in C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application)
+2026-08-18T16:56:47.656+05:30  INFO 18808 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : No active profile set, falling back to 1 default profile: "default"
+2026-08-18T16:56:49.639+05:30  INFO 18808 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-18T16:56:49.817+05:30  INFO 18808 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 5 JPA repository interfaces.
+2026-08-18T16:56:50.187+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-18T16:56:50.191+05:30  INFO 18808 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-18T16:56:50.192+05:30  INFO 18808 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-18T16:56:50.288+05:30  INFO 18808 --- [employee-application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2619 ms
+2026-08-18T16:56:50.428+05:30  INFO 18808 --- [employee-application] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-18T16:56:50.545+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-18T16:56:50.548+05:30  INFO 18808 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-08-18T16:56:50.757+05:30  INFO 18808 --- [employee-application] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dbedbdb
+2026-08-18T16:56:50.758+05:30  INFO 18808 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-08-18T16:56:50.763+05:30  INFO 18808 --- [employee-application] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employee_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: employee_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-18T16:56:50.933+05:30  INFO 18808 --- [employee-application] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-18T16:56:51.062+05:30  INFO 18808 --- [employee-application] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-18T16:56:51.308+05:30  WARN 18808 --- [employee-application] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-18T16:56:51.349+05:30  WARN 18808 --- [employee-application] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e2bc663a-f5ad-4d53-a23a-809c06700bfc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-08-18T16:56:51.354+05:30  INFO 18808 --- [employee-application] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-08-18T16:56:51.635+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-08-18T16:56:51.668+05:30  INFO 18808 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-18T16:56:51.676+05:30  INFO 18808 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Started EmployeeApplication in 4.117 seconds (process running for 140.283)
+2026-08-18T16:56:51.679+05:30  WARN 18808 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-18T16:56:51.680+05:30  WARN 18808 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-18T16:56:51.682+05:30  INFO 18808 --- [employee-application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-08-18T16:57:12.083+05:30  INFO 33528 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Starting EmployeeApplication using Java 21.0.11 with PID 33528 (C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application\target\classes started by karan.ramesh in C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application)
+2026-08-18T16:57:12.091+05:30  INFO 33528 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : No active profile set, falling back to 1 default profile: "default"
+2026-08-18T16:57:12.194+05:30  INFO 33528 --- [employee-application] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-18T16:57:12.194+05:30  INFO 33528 --- [employee-application] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-18T16:57:21.958+05:30  INFO 33528 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-18T16:57:22.810+05:30  INFO 33528 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 759 ms. Found 5 JPA repository interfaces.
+2026-08-18T16:57:27.139+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-18T16:57:27.213+05:30  INFO 33528 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-18T16:57:27.220+05:30  INFO 33528 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-18T16:57:27.577+05:30  INFO 33528 --- [employee-application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 15382 ms
+2026-08-18T16:57:28.601+05:30  INFO 33528 --- [employee-application] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-18T16:57:28.967+05:30  INFO 33528 --- [employee-application] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-18T16:57:31.644+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-18T16:57:31.804+05:30  INFO 33528 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-18T16:57:33.343+05:30  INFO 33528 --- [employee-application] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58a667b8
+2026-08-18T16:57:33.353+05:30  INFO 33528 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-18T16:57:33.743+05:30  INFO 33528 --- [employee-application] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employee_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: employee_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-18T16:57:36.923+05:30  INFO 33528 --- [employee-application] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-18T16:57:37.117+05:30  INFO 33528 --- [employee-application] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-18T16:57:37.330+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-18T16:57:40.300+05:30  WARN 33528 --- [employee-application] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-18T16:57:40.643+05:30  WARN 33528 --- [employee-application] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 807bb0df-294e-4705-9bf6-16d44753e9d6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-08-18T16:57:40.733+05:30  INFO 33528 --- [employee-application] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-08-18T16:57:43.695+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-08-18T16:57:44.004+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-18T16:57:44.031+05:30  INFO 33528 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Started EmployeeApplication in 34.013 seconds (process running for 35.195)
+2026-08-18T16:57:44.059+05:30  WARN 33528 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-18T16:57:44.061+05:30  WARN 33528 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-18T16:57:50.265+05:30  INFO 33528 --- [employee-application] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-18T16:57:50.266+05:30  INFO 33528 --- [employee-application] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-18T16:57:50.270+05:30  INFO 33528 --- [employee-application] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-08-18T16:57:50.441+05:30  WARN 33528 --- [employee-application] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-08-18T17:00:01.120+05:30  INFO 33528 --- [employee-application] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-08-18T17:00:01.418+05:30  INFO 33528 --- [employee-application] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-18T17:00:01.487+05:30  INFO 33528 --- [employee-application] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-18T17:00:01.685+05:30  INFO 33528 --- [employee-application] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-18T17:00:01.824+05:30  INFO 33528 --- [employee-application] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-18T17:00:01.980+05:30  INFO 33528 --- [employee-application] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-18T17:00:03.957+05:30  INFO 33528 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Starting EmployeeApplication using Java 21.0.11 with PID 33528 (C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application\target\classes started by karan.ramesh in C:\Users\karan.ramesh\OneDrive - Accenture\Desktop\employee-application)
+2026-08-18T17:00:03.967+05:30  INFO 33528 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : No active profile set, falling back to 1 default profile: "default"
+2026-08-18T17:00:07.212+05:30  INFO 33528 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-18T17:00:07.331+05:30  INFO 33528 --- [employee-application] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 5 JPA repository interfaces.
+2026-08-18T17:00:07.705+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-18T17:00:07.707+05:30  INFO 33528 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-18T17:00:07.707+05:30  INFO 33528 --- [employee-application] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-18T17:00:07.868+05:30  INFO 33528 --- [employee-application] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3875 ms
+2026-08-18T17:00:08.002+05:30  INFO 33528 --- [employee-application] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-18T17:00:08.201+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-18T17:00:08.204+05:30  INFO 33528 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-08-18T17:00:09.198+05:30  INFO 33528 --- [employee-application] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f1867b9
+2026-08-18T17:00:09.199+05:30  INFO 33528 --- [employee-application] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-08-18T17:00:09.204+05:30  INFO 33528 --- [employee-application] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/employee_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.46
+	Default catalog/schema: employee_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-18T17:00:09.404+05:30  INFO 33528 --- [employee-application] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-18T17:00:09.562+05:30  INFO 33528 --- [employee-application] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-18T17:00:09.903+05:30  WARN 33528 --- [employee-application] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-18T17:00:09.986+05:30  WARN 33528 --- [employee-application] [restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 23fa7012-76a0-4e34-a05a-1f71dbeb9b51
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-08-18T17:00:09.990+05:30  INFO 33528 --- [employee-application] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-08-18T17:00:10.571+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-08-18T17:00:10.618+05:30  INFO 33528 --- [employee-application] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-18T17:00:10.628+05:30  INFO 33528 --- [employee-application] [restartedMain] c.e.e.EmployeeApplication                : Started EmployeeApplication in 7.025 seconds (process running for 181.792)
+2026-08-18T17:00:10.632+05:30  WARN 33528 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-18T17:00:10.634+05:30  WARN 33528 --- [employee-application] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-18T17:00:10.639+05:30  INFO 33528 --- [employee-application] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-08-18T17:00:16.144+05:30  INFO 33528 --- [employee-application] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-18T17:00:16.145+05:30  INFO 33528 --- [employee-application] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-18T17:00:16.147+05:30  INFO 33528 --- [employee-application] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

@@ -1,0 +1,20 @@
+package com.example.employee_application.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProjectRequestDto {
+
+    private String projectName;
+    private String projectCode;
+    private Long departmentId;
+
+
+
+}
